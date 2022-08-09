@@ -72,7 +72,7 @@ const hk = data[0]
 
 for (let key in hk) {
     if (hk[key].length == 0) {
-        console.log(`${key[0].toUpperCase()+ key.substring(1)} : N/A`)
+        console.log(`${getUppercase(key)} : N/A`)
     } else if (Array.isArray(hk[key]) && typeof(hk[key][0]) == 'object') {
         for (let i in hk[key][0]) {
             console.log(`${getUppercase(key)}_${i}: ${hk[key][0][i]}`);
@@ -93,6 +93,12 @@ for (let key in hk) {
 function getUppercase(str) {
     return str[0].toUpperCase() + str.substring(1, str.length)
 }
+
+
+
+
+
+console.log(hk.map((item, key) => hk[key].length === 0 ? `${getUppercase(key)} : N/A` : `${getUppercase(key)} + ": " + ${hk[key]}`))
 
 
 

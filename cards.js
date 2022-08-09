@@ -42,7 +42,7 @@ console.log(card0(cards))
 
 //1
 function card1(cards) {
-    return cards.filter((cardB) => compareCard(["Club", "3"], cardB) < 0)
+    return cards.filter((cardB) => compareCard(["Club", "3"], cardB) <= 0)
 }
 console.log(card1(cards))
 
