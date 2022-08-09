@@ -98,7 +98,6 @@ function getUppercase(str) {
 
 
 
-console.log(hk.map((item, key) => hk[key].length === 0 ? `${getUppercase(key)} : N/A` : `${getUppercase(key)} + ": " + ${hk[key]}`))
 
 
 
