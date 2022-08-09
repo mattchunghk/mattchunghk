@@ -116,7 +116,7 @@ for (let key in hk) {
 //     }
 // }
 
-
+console.log("")
 
 
 //USA
@@ -166,7 +166,7 @@ const usa = {
     "numericCode": "840",
     "currencies": [{
         "code": "USD",
-        "name": "United States,dollar",
+        "name": "United States dollar ",
         "symbol": "$"
     }],
     "languages": [{
@@ -177,23 +177,22 @@ const usa = {
     }],
     "translations": {
         "br": "Estados Unidos",
-        "de": "Vereinigte Staaten von Amerika",
+        "de": "Vereinigte Staaten von Amerika ",
         "es": "Estados Unidos",
-        "fa": "\u0627\u06cc\u0627\u0644\u0627\u062a \u0645\u062a\u062d\u062f\u0647 \u0622\u0645\u0631\u06cc\u06a9\u0627",
+        "fa": "\u0627\u06cc\u0627\u0644\u0627\u062a\u0645\u062a\u062d\u062f\u0647\u0622\u0645\u0631\u06cc\u06a9\u0627 ",
         "fr": "\u00c9tats-Unis",
-        "hr": "Sjedinjene Ameri\u010dke Dr\u017eave",
-        "it": "Stati Uniti D\u0027America",
-        "ja": "\u30a2\u30e1\u30ea\u30ab\u5408\u8846\u56fd",
+        "hr": "Sjedinjene Ameri\u010dke Dr\u017eave ",
+        "it": "Stati Uniti D\u0027America ",
+        "ja": "\u30a2\u30e1\u30ea\u30ab\u5408\u8846\u56fd ",
         "nl": "Verenigde Staten",
         "pt": "Estados Unidos"
     },
-    "flag": "https:\/\/api.countrylayer.com\/v2\/",
+    "flag": "https:\/\/api.countrylayer.com\/v2\/ ",
     "regionalBlocs": [{
         "acronym": "NAFTA",
-        "name": "North American Free Trade Agreement",
+        "name": "North American Free Trade Agreement ",
         "otherNames": [
-            "Tratado de Libre Comercio de Am\u00e9rica del Norte",
-            "Accord de Libre-\u00e9change Nord-Am\u00e9ricain"
+            "Tratado de Libre Comercio de Am\u00e9ricadel Norte", "Accord de Libre-\u00e9change Nord-Am\u00e9ricain"
         ]
     }],
     "cioc": "USA"
