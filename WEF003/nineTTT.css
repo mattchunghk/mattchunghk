@@ -1,0 +1,240 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    background: #202124
+}
+
+#out_container {
+    /* background: #202124; */
+    background: white;
+    width: 530px auto;
+    height: auto;
+    padding-bottom: 10px;
+    border: 2px solid #000000;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#cell_out_container {
+    background: #12bdac;
+    margin: 10px 0px 20px 0px;
+    width: 535px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#container {
+    z-index: 0;
+    position: relative;
+    font-size: 30px;
+    margin: 0px auto;
+    width: 327px;
+    height: 327px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-top: 20px;
+    background: #12bdac;
+}
+
+@media screen and (max-width: 400px) {
+    #container {
+        z-index: 0;
+        position: relative;
+        font-size: 20px;
+        margin: 0px auto;
+        width: 220px;
+        height: 220px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background: #12bdac;
+    }
+}
+
+#mode {
+    -webkit-appearance: none;
+    font-weight: bold;
+    background: white;
+    color: #202124;
+    height: 30px;
+    width: 200px;
+    margin: 30px 20px 30px;
+    padding-left: 5px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+#mode:hover {
+    color: rgb(144, 143, 143);
+}
+
+.result {
+    font-size: 50px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.cells {
+    padding: 50px 50px 50px 50px;
+    background-color: #12bdac;
+    width: 5px;
+    height: 5px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 400px) {
+    .cells {
+        padding: 32px;
+        background-color: #12bdac;
+        z-index: 1;
+    }
+}
+
+.R1 {
+    border-bottom: 6px solid #0ca192;
+}
+
+.R2 {
+    border-bottom: 6px solid #0ca192;
+}
+
+.C1 {
+    border-right: 6px solid #0ca192;
+}
+
+.C2 {
+    border-right: 6px solid #0ca192;
+}
+
+.bi-circle {
+    position: relative;
+    top: -47px;
+    left: -35px;
+    color: white;
+    animation: fadeIn 1s;
+}
+
+@media screen and (max-width: 400px) {
+    .bi-circle {
+        position: relative;
+        top: -47px;
+        left: -23px;
+        color: white;
+        width: 50px;
+        animation: fadeIn 1s;
+    }
+}
+
+.bi-x {
+    position: relative;
+    top: -68px;
+    left: -90px;
+    animation: fadeIn 1s;
+}
+
+@media screen and (max-width: 400px) {
+    .bi-x {
+        position: relative;
+        top: -68px;
+        left: -43px;
+        animation: fadeIn 1s;
+        width: 90px;
+    }
+}
+
+.restart {
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+    margin: 0px auto;
+}
+
+#button {
+    color: #0ca192;
+    text-align: center;
+    margin: 0px auto;
+    background-color: white;
+    width: 185px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#button:hover {
+    color: #12bdac;
+    opacity: 0.5;
+}
+
+.total_mark {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.mark {
+    border-radius: 15px;
+    border: 0.5px solid gray;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 200px;
+    font-size: 4vw;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+#Human_Mark {
+    display: flex;
+    justify-content: space-between;
+    font-size: 35px;
+    color: #99a0a6;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#Ai_Mark {
+    display: flex;
+    justify-content: space-between;
+    font-size: 35px;
+    color: #99a0a6;
+    margin-right: 10px;
+    border-bottom: 2px solid #12bdac;
+}
+
+.mark_bi_o {
+    margin: 5px 10px 20px 20px;
+}
+
+.mark_bi_x {
+    margin: -12px 0px 20px 0;
+}
+
+#hu_score {
+    padding: 5px 5px 0px 0px;
+    ;
+}
+
+#ai_score {
+    padding: 5px 5px 0px 0px;
+}
+
+.turn {
+    display: flex;
+    justify-content: center;
+}
+
+.turn_bi_x {
+    margin-top: -5px;
+    color: gray;
+}
+
+.feedback {
+    text-align: right;
+    margin-right: 30px;
+}
