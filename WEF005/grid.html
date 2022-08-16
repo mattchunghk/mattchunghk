@@ -11,8 +11,22 @@
     />
     <link href="./grid.css" rel="stylesheet">
 </head>
+<div class="overview">
+    <div class="responsive-box">
+        <i class="bi bi-x-square"></i>
+        <div class="embed-responsive embed-responsive-16by9">
+            <!-- <iframe width="854" height="480" src="https://www.youtube.com/embed/ZwKhufmMxko" frameborder="0" allowfullscreen></iframe> -->
+            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/zpOULjyy-n8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            <video id="video" controls autoplay loop>
+                <source src="https://www.apple.com/105/media/us/apple-music/2021/7a99fc54-5af3-4513-8343-4c67c10b9f65/anim/value-props/large_2x.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+</div>
 
 <body>
+
     <div class="collapse" id="navbarToggleExternalContent">
         <div class="bg-dark p-4">
             <h5 class="text-white h4">Collapsed content</h5>
@@ -100,11 +114,12 @@
         </div>
 
 
-        <div class="container text-center">
+        <div class="container text-center main-container">
             <div class="row">
                 <div class="col-md-3 first-line">
+
                     <div class="first-box-show">
-                        <img class="first-photo" src="https://www.cssigniter.com/vip/acoustic/wp-content/uploads/sites/9/2013/01/2879326788_9c6d3aa15b_b-460x300.jpg" alt="glasses_man" />
+                        <img class="first-photo" id="glasses_man" src="https://www.cssigniter.com/vip/acoustic/wp-content/uploads/sites/9/2013/01/2879326788_9c6d3aa15b_b-460x300.jpg" alt="glasses_man" />
                         <div class="row first-text-box">
                             <div class="col-md-12">
                                 <div class="row">
@@ -187,7 +202,87 @@
             <div class="row second-box">
                 <div class="col-md-3 second-left">
                     <div class="second-title">UPCOMING EVENTS</div>
-                    <div class="second-left-events"></div>
+                    <div class="second-left-events">
+
+                        <div class="row events">
+                            <div class="col-md-12 events">
+                                <div class="row events">
+                                    <div class="col-md-4 col-2 events-date">
+                                        <div class="events-day">30</div>
+                                        <div class="events-month">Jan</div>
+                                        <div class="events-year">2023</div>
+                                    </div>
+                                    <div class="col-md-7 col-9 events-contact">
+                                        <div class="event-detail-1"><span>APAP</span></div>
+                                        <div class="event-detail-2">New York, NY</div>
+                                        <button class="second-text-btn">Buy Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row events">
+                            <div class="col-md-12 events">
+                                <div class="row events">
+                                    <div class="col-md-4 col-2 events-date">
+                                        <div class="events-day">20</div>
+                                        <div class="events-month">FEB</div>
+                                        <div class="events-year">2023</div>
+                                    </div>
+                                    <div class="col-md-7 col-9 events-contact">
+                                        <div class="event-detail-1"><span>Onassis Cultural Centre</span></div>
+                                        <div class="event-detail-2">Athens, GR
+
+
+                                        </div>
+                                        <button class="second-text-btn">JOIN US</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row events">
+                            <div class="col-md-12 events">
+                                <div class="row events">
+                                    <div class="col-md-4 col-2 events-date">
+                                        <div class="events-day">20</div>
+                                        <div class="events-month">FEB</div>
+                                        <div class="events-year">2023</div>
+                                    </div>
+                                    <div class="col-md-7 col-9 events-contact">
+                                        <div class="event-detail-1"><span>JazzClub</span></div>
+                                        <div class="event-detail-2">Paris, France
+                                        </div>
+                                        <button class="second-text-btn">SOLD OUT</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row events">
+                            <div class="col-md-12 events">
+                                <div class="row events">
+                                    <div class="col-md-4 col-2 events-date">
+                                        <div class="events-day">16</div>
+                                        <div class="events-month">APR</div>
+                                        <div class="events-year">2023</div>
+                                    </div>
+                                    <div class="col-md-7 col-9 events-contact">
+                                        <div class="event-detail-1"><span>Brasil</span></div>
+                                        <div class="event-detail-2">Rio, Brasil
+                                        </div>
+                                        <button class="second-text-btn">SOLD OUT</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
 
                     <div class="second-title">PHOTO GALLERIES
                     </div>
@@ -225,7 +320,14 @@
                 <div class="col-md-6 second-mid">
                     <div class="second-title">LATEST NEWS</div>
                     <img class="img-fluid second-min-photo" src="https://www.cssigniter.com/vip/acoustic/wp-content/uploads/sites/9/2013/01/acoustic1-710x450.jpg" alt="glasses_man" />
-                    <div class="second-min-text"></div>
+                    <div class="second-min-text">
+                        <div class="container news-box">
+                            <div class="news-title"><span>The Interview</span></div>
+                            <div class="news-source">Filed Under:<span>News</span></div>
+                            <div class="news-contact">In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Vestibulum mollis mauris enim. Morbi euismod
+                                magna ac lorem rutrum elementum. Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi[…]</div>
+                        </div>
+                    </div>
                     <img class="img-fluid second-min-photo" src="https://www.cssigniter.com/vip/acoustic/wp-content/uploads/sites/9/2013/01/a5-710x450.jpg" alt="glasses_man" />
                     <div class="second-min-text"></div>
                     <img class="img-fluid second-min-photo" src="https://www.cssigniter.com/vip/acoustic/wp-content/uploads/sites/9/2013/01/a4-710x450.jpg" alt="glasses_man" />
@@ -235,80 +337,186 @@
                 </div>
 
 
+
                 <div class="col-md-3 second-right">
                     <div class="second-title">LATEST ALBUM</div>
                     <img class="img-fluid second-right-photo" src="https://www.cssigniter.com/vip/acoustic/wp-content/uploads/sites/9/2013/01/3253370851_690df4b7f4_z.jpg" alt="glasses_man" />
-                    <div class="second-right-text"></div>
+                    <div class="second-right-playlist-text">
+                        <div class="row second-right-playlist">
+                            <div class="second-right-playlist-title">Familiar Friend</div>
+                            <div class="second-right-playlist-subtext">Release date: 05-Dec-2016</div>
+                        </div>
+                    </div>
+                    <div class="second-right-playlist-text">
+                        <div class="second-right-playlist-box">
+                            <div class="row second-right-playlist">
+                                <div class="col-md-8 col-10 second-right-col">
+                                    <div class="second-right-playlist-title">Nobody Move</div>
+                                    <div class="second-right-playlist-subtext">Self-hosted audio</div>
+                                </div>
+                                <div class="col-md-4 col-2 second-right-col">
+                                    <audio id="myAudio">
+                                        <source src="https://www.cssigniter.com/assets/audio/new_track_05.mp3" type="audio/mpeg">
+                                        Your browser does not support the audio element.
+                                      </audio>
+                                    <button id="play-button" type="button"><i class="bi bi-play-circle-fill "></i></button>
+                                    <button id="pause-button" type="button"><i class="bi bi-pause-circle-fill "></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="second-right-playlist-text">
+                        <div class="second-right-playlist-box">
+                            <div class="row second-right-playlist">
+                                <div class="col-md-8 col-10 second-right-col">
+                                    <div class="second-right-playlist-title">Miss Kitten</div>
+                                    <div class="second-right-playlist-subtext">Self-hosted audio</div>
+                                </div>
+                                <div class="col-md-4 col-2 second-right-col">
+                                    <audio id="myAudio">
+                                        <source src="https://www.cssigniter.com/assets/audio/new_track_01.mp3" type="audio/mpeg ">
+                                        Your browser does not support the audio element.
+                                      </audio>
+                                    <button id="play-button" type="button"><i class="bi bi-play-circle-fill "></i></button>
+                                    <button id="pause-button" type="button"><i class="bi bi-pause-circle-fill "></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="second-right-playlist-text">
+                        <div class="second-right-playlist-box">
+                            <div class="row second-right-playlist">
+                                <div class="col-md-8 col-10 second-right-col">
+                                    <div class="second-right-playlist-title">Return of the Spooky Driver</div>
+                                    <div class="second-right-playlist-subtext">Self-hosted audio</div>
+                                </div>
+                                <div class="col-md-4 col-2 second-right-col">
+                                    <audio id="myAudio">
+                                        <source src="https://www.cssigniter.com/assets/audio/new_track_02.mp3" type="audio/mpeg ">
+                                        Your browser does not support the audio element.
+                                      </audio>
+                                    <button id="play-button" type="button"><i class="bi bi-play-circle-fill "></i></button>
+                                    <button id="pause-button" type="button"><i class="bi bi-pause-circle-fill "></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="second-right-playlist-text">
+                        <div class="second-right-playlist-box">
+                            <div class="row second-right-playlist">
+                                <div class="col-md-8 col-10 second-right-col">
+                                    <div class="second-right-playlist-title">On the Downbeat</div>
+                                    <div class="second-right-playlist-subtext">Self-hosted audio</div>
+                                </div>
+                                <div class="col-md-4 col-2 second-right-col">
+                                    <audio id="myAudio">
+                                        <source src="https://www.cssigniter.com/assets/audio/new_track_03.mp3" type="audio/mpeg ">
+                                        Your browser does not support the audio element.
+                                      </audio>
+                                    <button id="play-button" type="button"><i class="bi bi-play-circle-fill "></i></button>
+                                    <button id="pause-button" type="button"><i class="bi bi-pause-circle-fill "></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="second-right-playlist-text">
+                        <div class="second-right-playlist-box">
+                            <div class="row second-right-playlist">
+                                <div class="col-md-8 col-10 second-right-col">
+                                    <div class="second-right-playlist-title">Ladies and Gentlemen</div>
+                                    <div class="second-right-playlist-subtext">Self-hosted audio</div>
+                                </div>
+                                <div class="col-md-4 col-2 second-right-col">
+                                    <audio id="myAudio">
+                                        <source src="https://www.cssigniter.com/assets/audio/new_track_04.mp3" type="audio/mpeg ">
+                                        Your browser does not support the audio element.
+                                      </audio>
+                                    <button id="play-button" type="button"><i class="bi bi-play-circle-fill "></i></button>
+                                    <button id="pause-button" type="button"><i class="bi bi-pause-circle-fill "></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
 
                     <div class="second-title">LATEST ALBUM</div>
-                    <img class="img-fluid second-right-photo" src="https://www.cssigniter.com/vip/acoustic/wp-content/uploads/sites/9/2012/11/koolgang.jpg" alt="glasses_man" />
+                    <img class="img-fluid second-right-photo" src="https://www.cssigniter.com/vip/acoustic/wp-content/uploads/sites/9/2012/11/koolgang.jpg " alt="glasses_man " />
                     <div class="second-right-album-text"></div>
-                    <img class="img-fluid second-right-photo" src="https://www.cssigniter.com/vip/acoustic/wp-content/uploads/sites/9/2013/01/3.jpg" alt="glasses_man" />
+                    <img class="img-fluid second-right-photo" src="https://www.cssigniter.com/vip/acoustic/wp-content/uploads/sites/9/2013/01/3.jpg " alt="glasses_man " />
                     <div class="second-right-album-text"></div>
 
 
                     <div class="second-title">ARTIST</div>
-                    <div class="second-right-artists-text "></div>
+                    <div class="second-right-artists-text"></div>
 
                     <div class="second-title">LATEST VIDEO</div>
-                    <img class="img-fluid second-right-video-photo" src="https://www.cssigniter.com/vip/acoustic/wp-content/uploads/sites/9/2013/01/2879687892_3208f78971_b-710x450.jpg" alt="glasses_man " />
+                    <img class="img-fluid second-right-video-photo" src="https://www.cssigniter.com/vip/acoustic/wp-content/uploads/sites/9/2013/01/2879687892_3208f78971_b-710x450.jpg " alt="glasses_man " />
                     <div class="second-right-video-text"></div>
                 </div>
             </div>
-
         </div>
+
+    </div>
     </div>
 
 
 
     <footer>
-        <div class="row footer-row">
-            <div class="col-md-3 footer f1">
-                <div class="footer-title">TEXT WIDGET</div>
-                <div class="footer-text">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        <div class="row footer-row ">
+            <div class="col-md-3 footer f1 ">
+                <div class="footer-title ">TEXT WIDGET</div>
+                <div class="footer-text ">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
 
-                <div class="footer-title sub">TEXT WIDGET</div>
-                <div class="footer-text">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                <div class="footer-title sub ">TEXT WIDGET</div>
+                <div class="footer-text ">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
             </div>
-            <div class="col-md-3 footer f2">
-                <div class="footer-title">INSTAGRAM</div>
-                <img class="img-fluid footer-ig-photo" src="https://www.cssigniter.com/vip/acoustic/wp-content/plugins/ci-instagram-widget/assets/images/music1/music1_01.jpg" alt="ig_0" />
-                <img class="img-fluid footer-ig-photo" src="https://www.cssigniter.com/vip/acoustic/wp-content/plugins/ci-instagram-widget/assets/images/music1/music1_02.jpg" alt="ig_0" />
-                <img class="img-fluid footer-ig-photo" src="https://www.cssigniter.com/vip/acoustic/wp-content/plugins/ci-instagram-widget/assets/images/music1/music1_03.jpg" alt="ig_0" />
-                <img class="img-fluid footer-ig-photo" src="https://www.cssigniter.com/vip/acoustic/wp-content/plugins/ci-instagram-widget/assets/images/music1/music1_04.jpg" alt="ig_0" />
-                <img class="img-fluid footer-ig-photo" src="https://www.cssigniter.com/vip/acoustic/wp-content/plugins/ci-instagram-widget/assets/images/music1/music1_05.jpg" alt="ig_0" />
-                <img class="img-fluid footer-ig-photo" src="https://www.cssigniter.com/vip/acoustic/wp-content/plugins/ci-instagram-widget/assets/images/music1/music1_06.jpg" alt="ig_0" />
-                <img class="img-fluid footer-ig-photo" src="https://www.cssigniter.com/vip/acoustic/wp-content/plugins/ci-instagram-widget/assets/images/music1/music1_07.jpg" alt="ig_0" />
-                <img class="img-fluid footer-ig-photo" src="https://www.cssigniter.com/vip/acoustic/wp-content/plugins/ci-instagram-widget/assets/images/music1/music1_08.jpg" alt="ig_0" />
-                <img class="img-fluid footer-ig-photo" src="https://www.cssigniter.com/vip/acoustic/wp-content/plugins/ci-instagram-widget/assets/images/music1/music1_09.jpg" alt="ig_0" />
+            <div class="col-md-3 footer f2 ">
+                <div class="footer-title ">INSTAGRAM</div>
+                <img class="img-fluid footer-ig-photo " src="https://www.cssigniter.com/vip/acoustic/wp-content/plugins/ci-instagram-widget/assets/images/music1/music1_01.jpg " alt="ig_0 " />
+                <img class="img-fluid footer-ig-photo " src="https://www.cssigniter.com/vip/acoustic/wp-content/plugins/ci-instagram-widget/assets/images/music1/music1_02.jpg " alt="ig_0 " />
+                <img class="img-fluid footer-ig-photo " src="https://www.cssigniter.com/vip/acoustic/wp-content/plugins/ci-instagram-widget/assets/images/music1/music1_03.jpg " alt="ig_0 " />
+                <img class="img-fluid footer-ig-photo " src="https://www.cssigniter.com/vip/acoustic/wp-content/plugins/ci-instagram-widget/assets/images/music1/music1_04.jpg " alt="ig_0 " />
+                <img class="img-fluid footer-ig-photo " src="https://www.cssigniter.com/vip/acoustic/wp-content/plugins/ci-instagram-widget/assets/images/music1/music1_05.jpg " alt="ig_0 " />
+                <img class="img-fluid footer-ig-photo " src="https://www.cssigniter.com/vip/acoustic/wp-content/plugins/ci-instagram-widget/assets/images/music1/music1_06.jpg " alt="ig_0 " />
+                <img class="img-fluid footer-ig-photo " src="https://www.cssigniter.com/vip/acoustic/wp-content/plugins/ci-instagram-widget/assets/images/music1/music1_07.jpg " alt="ig_0 " />
+                <img class="img-fluid footer-ig-photo " src="https://www.cssigniter.com/vip/acoustic/wp-content/plugins/ci-instagram-widget/assets/images/music1/music1_08.jpg " alt="ig_0 " />
+                <img class="img-fluid footer-ig-photo " src="https://www.cssigniter.com/vip/acoustic/wp-content/plugins/ci-instagram-widget/assets/images/music1/music1_09.jpg " alt="ig_0 " />
 
 
             </div>
-            <div class="col-md-3 footer f3">
-                <div class="footer-title">PRODUCTS</div>
-                <div class="row footer-photo-con">
-                    <div class="col-md-12 footer-photo-box">
-                        <div class="row footer-photo-box-indox">
-                            <div class="col-md-6 col-4"><img class="footer-photo" src="https://www.cssigniter.com/vip/acoustic/wp-content/uploads/sites/9/2013/01/1.jpg" alt="glasses_man" /></div>
-                            <div class="col-md-6 col-8">
-                                <div class="footer-photo-text">Fam Fam Fam the Acoustic</div>
-                                <div class="footer-photo-price">£23.99</div>
+            <div class="col-md-3 footer f3 ">
+                <div class="footer-title ">PRODUCTS</div>
+                <div class="row footer-photo-con ">
+                    <div class="col-md-12 footer-photo-box ">
+                        <div class="row footer-photo-box-indox ">
+                            <div class="col-md-6 col-4 "><img class="footer-photo " src="https://www.cssigniter.com/vip/acoustic/wp-content/uploads/sites/9/2013/01/1.jpg " alt="glasses_man " /></div>
+                            <div class="col-md-6 col-8 ">
+                                <div class="footer-photo-text ">Fam Fam Fam the Acoustic</div>
+                                <div class="footer-photo-price ">£23.99</div>
                             </div>
 
-                            <div class="col-md-6 col-4">
-                                <img class="footer-photo" src="https://www.cssigniter.com/vip/acoustic/wp-content/uploads/sites/9/2013/01/2.jpg" alt="glasses_man" />
+                            <div class="col-md-6 col-4 ">
+                                <img class="footer-photo " src="https://www.cssigniter.com/vip/acoustic/wp-content/uploads/sites/9/2013/01/2.jpg " alt="glasses_man " />
                             </div>
-                            <div class="col-md-6 col-8">
-                                <h1 class="footer-photo-text">Kool & The Gang</h1>
-                                <div class="footer-photo-price"><span class="cross-price">£16.99</span> £12.99</div>
+                            <div class="col-md-6 col-8 ">
+                                <h1 class="footer-photo-text ">Kool & The Gang</h1>
+                                <div class="footer-photo-price "><span class="cross-price ">£16.99</span> £12.99</div>
                             </div>
 
-                            <div class="col-md-6 col-4">
-                                <img class="footer-photo" src="https://www.cssigniter.com/vip/acoustic/wp-content/uploads/sites/9/2013/01/3.jpg" alt="glasses_man" />
+                            <div class="col-md-6 col-4 ">
+                                <img class="footer-photo " src="https://www.cssigniter.com/vip/acoustic/wp-content/uploads/sites/9/2013/01/3.jpg " alt="glasses_man " />
                             </div>
-                            <div class="col-md-6 col-8">
-                                <h1 class="footer-photo-text">Push the button</h1>
-                                <div class="footer-photo-price">£14.99</div>
+                            <div class="col-md-6 col-8 ">
+                                <h1 class="footer-photo-text ">Push the button</h1>
+                                <div class="footer-photo-price ">£14.99</div>
                             </div>
 
                         </div>
@@ -321,10 +529,10 @@
 
 
 
-            <div class="col-md-3 footer f4">
-                <div class="footer-title">TEXT WIDGET</div>
-                <div class="footer-text">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                <div class="footer-text">Music WordPress Theme <span class="footer-yellow-text">by CSSIgniter</span></div>
+            <div class="col-md-3 footer f4 ">
+                <div class="footer-title ">TEXT WIDGET</div>
+                <div class="footer-text ">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                <div class="footer-text ">Music WordPress Theme <span class="footer-yellow-text ">by CSSIgniter</span></div>
             </div>
 
 
@@ -333,7 +541,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js " integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa " crossorigin="anonymous "></script>
-    <script src="grid.js"></script>
+    <script src="grid.js "></script>
 </body>
 
 </html>
